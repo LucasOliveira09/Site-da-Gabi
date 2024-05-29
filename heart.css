@@ -1,6 +1,7 @@
 
 .heart {
-    margin-left: 10vw;
+    margin-left: 45%;
+    margin-bottom: 20px;
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -9,8 +10,6 @@
     transform: rotate(-45deg);
     box-shadow: -10px 10px 90px #f20044;
     animation: heart 0.6s linear infinite;
-    align-items: center;
-    justify-content: center;
 }
 @keyframes heart{
     0%{
@@ -37,54 +36,6 @@
 }
 
 .heart::after{
-    content: '';
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #f20044;
-    right: -50%;
-    border-radius: 50px;
-    box-shadow: -10px 10px 90px #f20044;
-}
-
-.heart2 {
-    margin-left: 80px;
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background: #f20044;
-    position: relative;
-    transform: rotate(-45deg);
-    box-shadow: -10px 10px 90px #f20044;
-    animation: heart 0.6s linear infinite;
-    align-items: center;
-    justify-content: center;
-}
-@keyframes heart{
-    0%{
-        transform: rotate(-45deg); scale: (1.07);
-    }
-    80%{
-        transform: rotate(-45deg) scale(1.0);
-    }
-    100%{
-        transform: rotate(-45deg) scale(1.07);
-    }
-}
-
-.heart2::before{
-    content: '';
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #f20044;
-    top: -50%;
-    border-radius: 50px;
-    box-shadow: -10px 10px 90px #f20044;
-    animation: heart 0.6s linear infinite;
-}
-
-.heart2::after{
     content: '';
     position: absolute;
     height: 40px;
