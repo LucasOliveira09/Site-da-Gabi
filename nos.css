@@ -32,6 +32,12 @@
     padding: 0px;
     margin: 0px;
 }
+
+body {
+    background-color: #e19f41;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
 
     padding: 30px;
@@ -77,4 +83,24 @@ header > h1 {
 .inicioela:hover {
     border: 2px solid #fccb6f;
     transform: translate(10px, 10px, 10px);
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.603);
+    height: 70vh;
+}
+
+section > h1 {
+        font-family: var(--fonte2);
+        margin-bottom: 5PX;
+        color: #03223f;
+}
+
+section.s2 {
+    margin-top: 20px;
 }
