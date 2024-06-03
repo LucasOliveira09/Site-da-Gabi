@@ -92,7 +92,7 @@ main {
     padding: 10px;
     display: inline-block;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.603);
-    height: 70vh;
+    height: 100vh;
 }
 
 section > h1 {
@@ -104,3 +104,19 @@ section > h1 {
 section.s2 {
     margin-top: 20px;
 }
+
+section.foto1 {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: white;
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.473);
+background-attachment: fixed;
+}
+
+section.foto1 > img {
+    width: 118px;
+    margin: 0px
+    }
