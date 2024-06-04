@@ -6,6 +6,145 @@
     <title>Nós</title>
     <link rel="stylesheet" href="nos.css">
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Love+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Love+Light&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+
+:root {
+    --fonte1: "Love Light", cursive;
+    --fonte2: "Edu NSW ACT Foundation", cursive;
+    --fonte3: "Ubuntu Sans", sans-serif;
+    --cor1: #010d23 ;
+    --cor2: #03223f ;
+    --cor3:  #038bbb ;
+    --cor4:  #fccb6f ;
+    --cor5:  #e19f41 ;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+* {
+    line-height: 1.5em;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    padding: 30px;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+    background-image: linear-gradient(#03223f, #010d23);
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "Courgette", cursive;
+    font-size: 3em;
+}
+
+.inicioela {
+    display: flex;
+    align-items: end;
+    background-color: rgba(110, 110, 110, 0.322);
+    width: 71px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+
+.inicioela > a {
+    font-family: var(--fonte3);
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-left: 5px;
+    border: 20px;
+
+}
+
+.inicioela > img {
+    width: 25px;
+    height: 25px;
+}
+
+.inicioela:hover {
+    border: 2px solid #fccb6f9d;
+    transform: translate(10px, 10px, 10px);
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.603);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 98vh;
+}
+
+section > h1 {
+        font-family: var(--fonte2);
+        margin-bottom: 5PX;
+        color: #03223f;
+}
+
+section.normal {
+    margin-bottom: -9px;
+
+}
+
+section.s2 {
+    margin-top: 20px;
+}
+
+section.foto1 {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: white;
+    background: fixed;
+background-attachment: fixed;
+box-shadow: 5px 6px 13px rgba(0, 0, 0, 0.473);
+}
+
+section.foto1 > img {
+    width: 118px;
+    margin: 0px;
+    }
+    
+.img2 > img {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 20px;
+    width: 355px;
+    box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.473);
+}
+</style>
 <body>
     <header>
         <h1>Juntos até o fim</h1>
@@ -31,8 +170,11 @@
             <p>Hoje estamos a praticamente 2 anos juntos e apesar de muitos que me arrependo, sei que eu sou a pessoa mais feliz ao seu lado, eu não imagino alguem tão perfeita como voce, assim como a musica "Terça de tarde" eu sei que seus olhos são hipnotizantes e me prenderam desde o primeiro dia que eu te vi, eu espero que a gente passe o resto da vida juntos, eu voce, Deus e nosso futuro cachorro chamado Marley Jr.
             </p>
             <p>
-                Se Deus quiser tudo irá dar certo, Eu te amo Gabriela, juntos até o fim!
+                Se Deus quiser tudo irá dar certo. <br>Eu te amo Gabriela, juntos até o fim!
             </p>
+        </section>
+        <section class="img2">
+            <img src="imagens/nos/olhar.png" alt="">
         </section>
     </main>
 </body>
