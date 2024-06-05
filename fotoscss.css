@@ -93,6 +93,13 @@ body {
     background-position: center;
 }
 
+.inicio {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: var(--fonte3);
+}
+
 .container {
     display: flex;
     height: 170px;
@@ -112,7 +119,7 @@ body {
 }
 
 .fotos1 > img:hover {
-    transform: scale(2.5) translate(50%, 50%);
+    transform: scale(2) translate(50%);
     transition: 2s;
 }
 
@@ -129,7 +136,7 @@ body {
 }
 
 .fotos2 > img:hover {
-    transform: scale(2.5) translate(0%, 50%);
+    transform: scale(2);
     transition: 2s;
 }
 
@@ -146,6 +153,26 @@ body {
 }
 
 .fotos3 > img:hover {
-    transform: scale(2.5) translate(-50%, 50%);
+    transform: scale(2) translate(-50%);
     transition: 2s;
+}
+
+.container2 {
+    display: flex;
+    height: 170px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.finalpage {
+    background-color: #038abb73;
+    border-radius: 30px;
+    width: 370px;
+    text-align: center;
+    margin: 20px;
+}
+
+.finalpage > h1 {
+    color: white;
+    font-family: var(--fonte2);
 }
