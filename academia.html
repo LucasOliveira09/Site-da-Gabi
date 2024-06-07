@@ -4,8 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia</title>
-    <link rel="stylesheet" href="Academiacss.css">
 </head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Love+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Love+Light&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+
+:root {
+    --fonte1: "Love Light", cursive;
+    --fonte2: "Edu NSW ACT Foundation", cursive;
+    --fonte3: "Ubuntu Sans", sans-serif;
+    --cor1: #010d23 ;
+    --cor2: #03223f ;
+    --cor3:  #038bbb ;
+    --cor4:  #fccb6f ;
+    --cor5:  #e19f41 ;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+* {
+    line-height: 1.5em;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    padding: 30px;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+    background-image: linear-gradient(#03223f, #010d23);
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "Courgette", cursive;
+    font-size: 3em;
+}
+
+.inicioela {
+    display: flex;
+    align-items: end;
+    background-color: rgba(110, 110, 110, 0.322);
+    width: 71px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+
+.inicioela > a {
+    font-family: var(--fonte3);
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-left: 5px;
+    border: 20px;
+
+}
+
+.inicioela > img {
+    width: 25px;
+    height: 25px;
+}
+
+.inicioela:hover {
+    border: 2px solid #fccb6f9d;
+    transform: translate(10px, 10px, 10px);
+}
+
+
+/*-------*/
+
+body {
+    background-color: #fccb6f;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
+    height: 20vh;
+}
+
+section#img01 {
+    background-image: url(imagens/sobremim/ass.jpg);
+    background-position: top;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url(imagens/sobremim/ass2.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+section#img03 {
+    background-image: url(imagens/sobremim/costas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+</style>
 <body>
     <header>
         <h1>Academia</h1>
